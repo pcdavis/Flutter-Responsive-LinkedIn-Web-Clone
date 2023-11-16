@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:linkedin_web_ui/pages/nav_pages/home/widgets/center_menu/home_center_menu.dart';
 import 'package:linkedin_web_ui/pages/nav_pages/home/widgets/left_menu/home_left_menu.dart';
@@ -18,7 +17,9 @@ class HomeSmallTabletUi extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             HomeLeftMenu(maxWidth: 220),
-            SizedBox(width: 25,),
+            SizedBox(
+              width: 25,
+            ),
             HomeCenterMenu(maxWidth: 450),
           ],
         ),
